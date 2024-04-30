@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        form input[type="text"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        form textarea {
+            height: 150px;
+        }
+
+        form input[type="submit"] {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        form input[type="submit"]:hover {
+            background: #555;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            background: #555;
+        }
+
+.logo-container {
+    position: fleX;
+}
+
+.logo-container img {
+    height: 40px; 
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  margin: 1PX;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo-container">
+                <img src="image/logo.jpg" alt="Logo">
+            </div>
+            <a href="index.php">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contactus.html">Contact</a>
+            <a href="service.html">Service</a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>Contact us</h1>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2><u>Contact Information</u></h2>
+            <p><b>Have questions or need assistance? We're here to help! Please feel free to reach out to us using the following contact information:</b></p>
+
+            <h3>Contact us</h3>
+            <p>Reach out to us anytime, and our dedicated support team will be happy to assist you:</p>
+            <ul>
+                <li>Address: KK707 Street, Kicukiro, Kigali city, Rwanda</li>
+                <li>Phone: +250 788669006</li>
+                <li>Email: epms@gmail.com</li>
+            </ul>
+
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+
+            <h3>Hours Of Working</h3>
+            <p><b>Monday - Friday:</b> 9:00 AM - 7:00 PM</p>
+            <p><b>Saturday:</b> 9:00 AM - 5:00 PM</p>
+            <p><b>Sunday:</b> Closed</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; UR CBE BIT, 2024 &reg;, Designed by: @Rita KAGABE.
+    </footer>
+</body>
+</html>

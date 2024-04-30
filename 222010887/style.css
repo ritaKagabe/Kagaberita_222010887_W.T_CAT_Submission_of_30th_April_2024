@@ -1,0 +1,19 @@
+body {
+            text-align: center; 
+        }
+        table {
+            width: 70%; 
+            margin: 0 auto; 
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid pink;
+            padding: 8px;
+            text-align: left;
+            background-color: skyblue;
+        }
+
+        th {
+            background-color: yellowgreen;
+        }
